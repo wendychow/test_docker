@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "djangoproject"
+version = "0.1.0"
+description = ""
+authors = ["周文娣 <10446581+wendyChow@user.noreply.gitee.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0.3"
+djangorestframework = "^3.15.0"
+drf-yasg = "^1.21.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
